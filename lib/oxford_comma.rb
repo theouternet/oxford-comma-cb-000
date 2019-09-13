@@ -1,4 +1,4 @@
-def oxford_comma(array)
+ def oxford_comma(array)
 if (array[0] != nil) && (array[1] == nil) 
 return array.join
 elsif (array[1] != nil) && (array[2] == nil) 
